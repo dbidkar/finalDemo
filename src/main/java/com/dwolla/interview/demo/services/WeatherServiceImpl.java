@@ -14,16 +14,14 @@ public class WeatherServiceImpl implements WeatherService{
 
     @Value("${cityNameAPI}")
     private String weatherByName;
-
-    @Value("${cityIdAPI}")
-    private String weatherById;
-
-    @Value("${imperialUnits}")
-    private String imperialUnits;
     
     @Value("${metricUnits}")
     private String metricUnits;
     
+    @Value("${imperialUnits}")
+    private String imperialUnits;
+    
+
     @Override
     public ResponseDTO getCityWeatherByName(String name, boolean isMetric) throws Exception{
         RestTemplate restTemplate = new RestTemplate();
@@ -38,5 +36,7 @@ public class WeatherServiceImpl implements WeatherService{
     private String getWeatherByNameAPI(String name) {
         return baseUrl + weatherByName + name;
     }
+
+  
     
 }
