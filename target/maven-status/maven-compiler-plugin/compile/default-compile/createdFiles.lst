@@ -1,0 +1,15 @@
+com\dwolla\interview\demo\services\WeatherServiceImpl.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$CoordinatesDTO.class
+com\dwolla\interview\demo\services\WeatherService.class
+com\dwolla\interview\demo\controller\WeatherController.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$RainDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$ResponseDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$WeatherDTO.class
+com\dwolla\interview\demo\Application.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$CloudDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$WindDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$WeatherApiResponseDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$SystemDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$MainDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO$SnowDTO.class
+com\dwolla\interview\demo\dto\WeatherResponseDTO.class
