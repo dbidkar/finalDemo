@@ -22,7 +22,7 @@ import com.dwolla.interview.demo.services.WeatherService;
 public class WeatherController {
     
     private static DecimalFormat df = new DecimalFormat("0.00");
-    private static final Logger LOGGER = LogManager.getLogger(WeatherController.class);
+   // private static final Logger LOGGER = LogManager.getLogger(WeatherController.class);
     @Autowired
     private WeatherService weatherService;
 
